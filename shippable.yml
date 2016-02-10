@@ -35,6 +35,7 @@ before_script:
 script:
   - grunt
   - echo "$foo"
+  - echo "$too"
 
 # Tell istanbul to generate a coverage report
 after_script:

@@ -11,6 +11,7 @@ env:
   
   matrix:
     - secure: 0mqXF5bQiVLWq3DqIVCFd9RlodTSzxHXCXfFifBzcz9akrYyTDaXAjAajOXYu85JKy51cDR6IZ8SZr1TaRutCjJS2LK8hQ4X6a43oXAqy7ij6BIXThFM29DJCXJ1pncmFkxRHUl8PH3gCBKkEBbTHMkfjBzTgg+I90nRUIgQ74QjjtgHcWmXLqCNKQZe4b26OAlCtUj03QGsxfvmevcPCOXBGJtBxGHr9hqL04hIkpfhrpB9igmS1HcoDyA7yj0lQ9QA8ZESrwGlQpOsd97y2YeqgEXAMXROjf+WtGD41qIAECsS2RQAL/MJXfZTMcW4nKDj60g3GUwZhc6Oh19Jdw==
+    - secure: Wu5fCYLMDxgiAxyL5O5zMMBdMJkRIDN8cWhXWGNwLGGS36PwnlSRiuw1B6WSJ4UxUMrJghB1WjmVQWxjxcwX8+38iiqXDEf1sMXHAmlGSrXIA2F3ghvcrS0eikzmB7KKVVAJYjip+INVcW0nvAoUY3DJ1mpwncyC+2CBt+0pbPtf9yGmUfv//KmtuSRuE6hTERff3dM1ujmUVQgHbBHq79+G8fNe4qUf9bCnFigivfOJ9elUhNMyNlJMybByZ7TAgJkGMkAWEx27u/OrEGjgTZy7taWqvLeqoU00MISz5VKShW40xP/2j3HPUDr/8uzy+Oon3/6burHES7ZMebWDBA==
 # The path for Xunit to output test reports
 #env:
  # - XUNIT_FILE=shippable/testresults/result.xml

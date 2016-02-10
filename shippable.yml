@@ -6,6 +6,8 @@ build_image: drydock/u12nod:prod
 # Version number
 node_js:
   - 0.12
+env:
+  - secure: uxjou4LxKOHTHNb6fTynwKqQLIvPZtuuQY5InJh5Ddi8RoUROjuTQfVseFbpvSE7XG+v1DYlmw7v7zxLJEKKg+W/0z7UKYk4o3NXWmziVz6VaObIcsbFEk8gCfIYws2HJxAbmw3zNM0Z3LqRSK6Lpma0klfDhKrEKOMO+YehhGlxuDKGdXAs2mYySNNOsXxZJhLZBhgvD5Em7DkGeKN4Cyw9GNabfCPMhvEVyAUIshlCSb2P3yyDI10IFzAJ3QUmydAQdAco0i0CMA7UABw7iFlemYYMxm45GpjIn7PvbYTfulvCaJvALTVcwyWOX9bF7lhNlGxDh3lr6SCYIBO30Q==
 
 # The path for Xunit to output test reports
 env:
@@ -29,6 +31,7 @@ before_script:
 # Running the tests with grunt
 script:
   - grunt
+  - echo "$foo"
 
 # Tell istanbul to generate a coverage report
 after_script:

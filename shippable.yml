@@ -6,6 +6,10 @@ language: node_js
 # Version number
 node_js:
   - 0.12
+  - 0.11
+  - 0.10
+  - 4.2.2
+  - 5.0
 
 # The path for Xunit to output test reports
 env:
@@ -34,4 +38,9 @@ script:
 after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/  
+notifications:
+  email:
+    recipients:
+      - sreyaj10@gmail.com
+      - sreya@shippable.com
 
